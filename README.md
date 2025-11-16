@@ -8,18 +8,22 @@
 * The cannon balls have physics, where it will bounce with contact with the ground, with gravity.
 * The cannon ball stored how much charge the Player had, when the cannon ball was shot.
 * Spawning every round in pairs, there are cars with snipers on top that shoot bullets in a straight line, at the player. They are called SniperCars.
-* The reload time of the SniperCar varies between 0.8–1.2 seconds.
+* The reload time of the SniperCar varies between 0.5-1.0 seconds.
 * The SniperCars have unlimited ammo, and have 30 health points.
 * SniperCars do damage randomly from 3–5HP to the Player, when the bullet hits the Player.
+* Every five rounds, a super SniperCar spawns, with a gilded tint.
+* The super SniperCars have 50HP, and have a slightly longer shooting cooldown of 0.8–1.2 seconds.
+* A super SniperCar's bullet can do damage from 10–15HP.
 * SniperCars are the main enemy to the Player, and the Player has to try to shoot them all down.
 * Each cannon ball does damage from 1–10HP to the SniperCar, when the cannon ball lands on the SniperCar, depending on the charge amount of the player during the cannon ball was shot.
 * When a Player reduces a SniperCar's health to 0HP, the SniperCar dies, and a gold Coin spawns in the SniperCar's place.
+* However, when a super SniperCar dies, three gold Coins spawn.
 * The Player can pick up these Coins to increase their Coins counter.
 * When the Player has a minimum of 5 Coins, they can purchase a Drone, when they are in a state of emergency, which costs 5 Coins.
 * When a Drone is purchased, it comes down from the sky, and starts shooting bullets at the SniperCars, with perfect aim.
 * Drones can be bought again and again with no cooldown by the player.
 * Drones cannot be harmed by SniperCars.
-* The reload time of the Drone varies between 0.8–1.2 seconds.
+* The reload time of the Drone varies between 0.5–1.0 seconds.
 * Drones do damage randomly from 3–5HP to the SniperCar, when the bullet hits the SniperCar.
 * The Drones last only for 15 seconds, and despawn after the time period ends.
 * While in the home screen, the Player can choose between the different game difficulties:
@@ -33,3 +37,7 @@
   - Charge/Shoot: Key Space
   - Move Turret Left: Key Q OR Left Mouse Button
   - Move Turret Right: Key E OR Right Mouse Button
+* There is also a hidden debug mode, which can be toggled by pressing F3.
+* In the debug mode, the positions of the game entities are shown with a blue circle, and the hitboxes of the game entities are shown with red lines and rectangles.
+* The Player's goal is to take down as many SniperCars as possible, collect coins, use decision–making skills to purchase drones, and to stay alive for as long as possible.
+* I hope all the users have as much fun playing my game, just as I had fun designing it.
